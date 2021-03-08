@@ -31,4 +31,16 @@ basic.forever(function () {
         k_Bit.LED_brightness(113)
         k_Bit.Led(COLOR.blue)
     }
+    if (Landerito_guay_que_es_un_pro == 13) {
+        k_Bit.LED_brightness(113)
+        k_Bit.Led(COLOR.black)
+    }
+    if (Landerito_guay_que_es_un_pro == 12) {
+        k_Bit.LED_brightness(113)
+        k_Bit.Led(COLOR.white)
+    }
+    if (Landerito_guay_que_es_un_pro == 24) {
+        k_Bit.LED_brightness(113)
+        k_Bit.Led(COLOR.red)
+    }
 })
