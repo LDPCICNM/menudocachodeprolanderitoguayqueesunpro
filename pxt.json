@@ -4,7 +4,8 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "pxt-k-bit": "github:mworkfun/pxt-k-bit#e8e1f6540764c5c9939877e8d562ba1e4a93088d"
     },
     "files": [
         "main.blocks",
