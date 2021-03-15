@@ -5,42 +5,26 @@ basic.forever(function () {
 })
 basic.forever(function () {
     if (Landerito_guay_que_es_un_pro == 70) {
+        music.playMelody("A F E F D G E F ", 120)
         k_Bit.run(DIR.RunForward, 70)
+        basic.pause(1000)
+        k_Bit.run(DIR.RunBack, 70)
+        basic.pause(1000)
+        k_Bit.run(DIR.TurnLeft, 70)
+        basic.pause(500)
+        k_Bit.run(DIR.TurnRight, 70)
+        basic.pause(1000)
     }
     if (Landerito_guay_que_es_un_pro == 21) {
         k_Bit.run(DIR.RunBack, 70)
+        basic.pause(1000)
+        k_Bit.Motor(MotorObs.LeftSide, MotorDir.Forward, 79)
     }
     if (Landerito_guay_que_es_un_pro == 68) {
-        k_Bit.run(DIR.TurnLeft, 70)
-        basic.pause(2000)
-        k_Bit.carStop()
-    }
-    if (Landerito_guay_que_es_un_pro == 67) {
-        k_Bit.run(DIR.TurnRight, 70)
-        basic.pause(2000)
-        k_Bit.carStop()
-    }
-    if (Landerito_guay_que_es_un_pro == 64) {
-        k_Bit.carStop()
-    }
-    if (Landerito_guay_que_es_un_pro == 22) {
-        k_Bit.LED_brightness(113)
-        k_Bit.Led(COLOR.green)
-    }
-    if (Landerito_guay_que_es_un_pro == 25) {
-        k_Bit.LED_brightness(113)
-        k_Bit.Led(COLOR.blue)
-    }
-    if (Landerito_guay_que_es_un_pro == 13) {
-        k_Bit.LED_brightness(113)
-        k_Bit.Led(COLOR.black)
-    }
-    if (Landerito_guay_que_es_un_pro == 12) {
-        k_Bit.LED_brightness(113)
-        k_Bit.Led(COLOR.white)
-    }
-    if (Landerito_guay_que_es_un_pro == 24) {
-        k_Bit.LED_brightness(113)
         k_Bit.Led(COLOR.red)
+        k_Bit.run(DIR.RunBack, 70)
+        basic.pause(1000)
+        k_Bit.run(DIR.TurnRight, 70)
+        basic.pause(1000)
     }
 })
