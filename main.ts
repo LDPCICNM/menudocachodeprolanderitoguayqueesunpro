@@ -27,4 +27,7 @@ basic.forever(function () {
         k_Bit.run(DIR.TurnRight, 70)
         basic.pause(1000)
     }
+    if (Landerito_guay_que_es_un_pro == 64) {
+        k_Bit.carStop()
+    }
 })
